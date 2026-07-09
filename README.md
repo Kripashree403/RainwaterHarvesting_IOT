@@ -1,8 +1,8 @@
-# Smart Rainwater Harvesting System using ESP32
+# Smart Rainwater Harvesting System using Arduino
 
 ## Project Overview
 
-The Smart Rainwater Harvesting System is an IoT-based project developed using the ESP32 microcontroller. It automatically monitors rainfall, water level, and water quality, and controls the water flow using a servo motor. The system also displays real-time information on a 16x2 I2C LCD.
+The Smart Rainwater Harvesting System is an IoT-based project developed using the Arduino microcontroller. It automatically monitors rainfall, water leveland controls the water flow using a servo motor. The system also displays real-time information on a 16x2 I2C LCD.
 
 ---
 
