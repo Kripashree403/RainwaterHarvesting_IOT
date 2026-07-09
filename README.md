@@ -10,19 +10,17 @@ The Smart Rainwater Harvesting System is an IoT-based project developed using th
 
 - Detects rainfall using a rain sensor
 - Measures tank water level using an ultrasonic sensor
-- Monitors water quality using a TDS sensor
 - Automatically controls water flow using a servo motor
 - Displays system status on a 16x2 I2C LCD
-- ESP32-based IoT implementation
+- Arduino-based IoT implementation
 
 ---
 
 ##  Components Used
 
-- ESP32 Development Board
+- Arduino Uno Development Board
 - Rain Sensor
 - Ultrasonic Sensor (HC-SR04)
-- Gravity TDS Sensor
 - SG90 Servo Motor
 - 16x2 I2C LCD Display
 - Breadboard
@@ -35,12 +33,10 @@ The Smart Rainwater Harvesting System is an IoT-based project developed using th
 
 1. The rain sensor detects rainfall.
 2. The ultrasonic sensor measures the water level inside the storage tank.
-3. The TDS sensor checks the quality of the stored water.
-4. Based on sensor readings, the ESP32 controls the servo motor.
-5. The LCD displays:
+3. Based on sensor readings, the Arduino controls the servo motor.
+4. The LCD displays:
    - Rain Status
    - Water Level
-   - Water Quality
    - Servo Status
 
 ---
@@ -50,9 +46,10 @@ The Smart Rainwater Harvesting System is an IoT-based project developed using th
 
 ### Circuit Diagram
 
-![Circuit](Image1.jpeg)
+
 
 ### Project Setup
+![Circuit](Image1.jpeg)
 
 ![Project](Image2.jpeg)
 
@@ -69,8 +66,8 @@ Watch the demo here:
 - Mobile App Integration
 - Cloud Data Logging
 - Notification Alerts
-- Solar Powered Operation
-- Automatic Water Quality Analytics
+- Water Quality Analytics
+- Dashboard Creation
 
 ---
 
