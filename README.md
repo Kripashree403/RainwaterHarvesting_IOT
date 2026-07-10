@@ -45,7 +45,7 @@ The Smart Rainwater Harvesting System is an IoT-based project developed using th
 ## 📷 Project Images
 
 ### Circuit Diagram
-
+![Circuit](CircuitDiagram.png)
 
 
 ### Project Setup
